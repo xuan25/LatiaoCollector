@@ -1,0 +1,17 @@
+﻿<Window x:Class="LatiaoCollector.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LatiaoCollector"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="ScanBtn" Content="Scan" HorizontalAlignment="Left" Margin="10,34,0,0" VerticalAlignment="Top" Width="75" Click="ScanBtn_Click"/>
+        <Button x:Name="LoginBtn" Content="Login" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="75" Click="LoginBtn_Click"/>
+        <TextBlock x:Name="UserInfoBox" HorizontalAlignment="Left" Margin="90,12,0,0" TextWrapping="Wrap" Text="UserInfo" VerticalAlignment="Top"/>
+        <TextBox x:Name="LogBox" HorizontalAlignment="Stretch" Margin="10,58,10,5" TextWrapping="Wrap" Text="" VerticalAlignment="Stretch" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <Button x:Name="ListenBtn" Content="Listen" HorizontalAlignment="Left" Margin="90,34,0,0" VerticalAlignment="Top" Width="75" Click="ListenBtn_Click"/>
+        <Button x:Name="InfoBtn" Content="Info" HorizontalAlignment="Left" Margin="170,34,0,0" VerticalAlignment="Top" Width="75" Click="InfoBtn_Click"/>
+    </Grid>
+</Window>
